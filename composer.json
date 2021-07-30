@@ -1,0 +1,32 @@
+{
+    "name": "shawsank/otp",
+    "version": "1.0.0",
+    "description": "Laravel5 OTP manager",
+    "keywords": ["laravel", "otp", "otp generate"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "P R",
+            "email": "indparez@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+	    "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shawsank\\OTP\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Shawsank\\OTP\\OTPServiceProvider"
+			]
+		}
+	}
+}
